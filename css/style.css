@@ -101,3 +101,12 @@ body {
 .hide {
   display: none;
 }
+
+.select {
+  color: var(--primary-clr);
+  font-size: var(--text-fs);
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: hsl(213, 19%, 11%);
+  margin-bottom: 30px;
+}
