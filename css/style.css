@@ -27,7 +27,7 @@ body {
 }
 
 .box {
-  width: 400px;
+  max-width: 400px;
   min-height: 400px;
   background-color: var(--dark-blue-clr);
   border-radius: 25px;
@@ -67,15 +67,10 @@ body {
   background-color: var(--primary-clr);
   border-radius: 25px;
   transition: 200ms ease-in-out;
-}
-
-.btn-link {
   color: var(--white-clr);
   font-size: var(--text-fs);
   text-decoration: none;
   padding: 10px 0px;
-  display: inline-block;
-  transition: 200ms ease-in-out;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -92,6 +87,7 @@ body {
 
 .submit-btn:hover {
   background-color: var(--white-clr);
+  color: var(--primary-clr);
 }
 
 .submit-btn:hover .btn-link {
